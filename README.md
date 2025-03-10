@@ -6,7 +6,7 @@
 2.  Copy environment file `cp .env.example .env`
 3.  Configure `.env` file set `DB_DATABASE`, `DB_USERNAME` and `DB_PASSWORD` for MySQL database
 4.  Run `composer install` to install dependencies
-5.  Run `php artisan migrate:fresh --seed` to set up the database.
+5.  Run `php artisan migrate:fresh` to set up the database.
 6.  Run `php artisan queue:work --tries=3 --timeout=10` to start the queue worker.
 7.  (Optional) Run `php artisan horizon` to start Horizon for monitoring.
 8.  Run queue worker `php artisan queue:work`
