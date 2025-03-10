@@ -13,7 +13,7 @@
 
 ## Running Tests
 
-* Run `php artisan test --unit` to execute the unit tests.
+* Run `php artisan test` to execute the tests.
 
 ## Issues and Handling
 
