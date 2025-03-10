@@ -20,6 +20,8 @@ class ProcessOrderPaymentJob implements ShouldQueue
 
     protected $orderId;
 
+    public $maxExceptions = 3;
+
     /**
      * Create a new job instance.
      *
